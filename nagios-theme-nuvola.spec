@@ -13,6 +13,7 @@ Requires:	nagios-www >= 2.9
 Provides:	nagios-theme
 Obsoletes:	nagios-theme
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %define		_nagiosdir	%{_datadir}/nagios
 
