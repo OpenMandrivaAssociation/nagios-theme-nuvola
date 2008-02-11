@@ -1,7 +1,7 @@
 Summary:	Nagios Nuvola Style
 Name:		nagios-theme-nuvola
 Version:	1.0.3
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	LGPL / Free (dtree)
 Group:		Networking/Other
 URL:		http://tinyurl.com/a946b
@@ -11,7 +11,7 @@ Patch1:		nagios-nuvola-texts.patch
 BuildRequires:	sed >= 4.0
 Requires:	nagios-www >= 2.9
 Provides:	nagios-theme
-Obsoletes:	nagios-theme
+Conflicts:	nagios-theme-default
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
