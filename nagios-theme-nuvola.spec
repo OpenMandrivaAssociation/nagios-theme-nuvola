@@ -1,6 +1,6 @@
 Name:		nagios-theme-nuvola
 Version:	1.0.3
-Release:	%mkrel 5
+Release:	%mkrel 6
 Summary:	Nagios Nuvola Style
 License:	LGPL / Free (dtree)
 Group:		Networking/Other
