@@ -1,0 +1,32 @@
+diff -Naur --exclude '*.orig' --exclude '*.rej' --exclude '*~' nagios-nuvola-1.0.3/html/index.html nagios-nuvola-1.0.3-favicon/html/index.html
+--- nagios-nuvola-1.0.3/html/index.html	2005-05-13 09:03:11.000000000 +0200
++++ nagios-nuvola-1.0.3-favicon/html/index.html	2009-01-04 19:22:53.000000000 +0100
+@@ -3,6 +3,7 @@
+ <HEAD>
+ <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+ <TITLE>Nagios</TITLE>
++<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
+ <script type="text/javascript" language="JavaScript1.2" src="config.js"></script>
+ </HEAD>
+ <script language="JavaScript" type="text/javascript">
+diff -Naur --exclude '*.orig' --exclude '*.rej' --exclude '*~' nagios-nuvola-1.0.3/html/main.html nagios-nuvola-1.0.3-favicon/html/main.html
+--- nagios-nuvola-1.0.3/html/main.html	2005-05-02 11:10:17.000000000 +0200
++++ nagios-nuvola-1.0.3-favicon/html/main.html	2009-01-04 19:23:15.000000000 +0100
+@@ -4,6 +4,7 @@
+ <HEAD>
+ <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+ <TITLE>Nagios</TITLE>
++<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
+ <LINK REL='stylesheet' TYPE='text/css' HREF='stylesheets/common.css'>
+ <STYLE type="text/css">
+ 
+diff -Naur --exclude '*.orig' --exclude '*.rej' --exclude '*~' nagios-nuvola-1.0.3/html/side.html nagios-nuvola-1.0.3-favicon/html/side.html
+--- nagios-nuvola-1.0.3/html/side.html	2005-05-16 12:28:20.000000000 +0200
++++ nagios-nuvola-1.0.3-favicon/html/side.html	2009-01-04 19:23:41.000000000 +0100
+@@ -1,5 +1,6 @@
+ <html>
+ <head>
++<link rel="shortcut icon" href="/nagios/favicon.ico" type="image/ico">
+ <script type="text/javascript" language="JavaScript1.2" src="config.js"></script>
+ <title></title>
+ <script language="JavaScript" type="text/javascript">
