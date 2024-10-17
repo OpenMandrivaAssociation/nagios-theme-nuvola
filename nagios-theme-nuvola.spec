@@ -4,7 +4,7 @@ Release:	9
 Summary:	Nagios Nuvola Style
 License:	LGPL / Free (dtree)
 Group:		Networking/Other
-URL:		http://exchange.nagios.org/directory/Addons/Frontends-(GUIs-and-CLIs)/Web-Interfaces/Themes-and-Skins/Nuvola-Style/details
+URL:		https://exchange.nagios.org/directory/Addons/Frontends-(GUIs-and-CLIs)/Web-Interfaces/Themes-and-Skins/Nuvola-Style/details
 Source0:	nagios-nuvola-%{version}.tar.gz
 Patch0:		nagios-nuvola-1.0.3-favicon.patch
 BuildRequires:	sed >= 4.0
